@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="navB"></section>
+    <header id="header">
+        <div>
+            <img src="img/img-fondo.jpg" alt="">
+            </img>
+        </div>
+    </header>
+    <main id="main">
+        <section>
+            <h3>Cuenta</h3>
+            <form action="">
+                <label for="usuario">Usuario</label>
+                <input id="usuario" type="text"><br>
+                <label for="contrasenia">Contrasenia</label>
+                <input id="contrasenia" type="password">
+                <input type="button" id="submit" value="submit" onclick="contenidoForm()">
+                <p id="info"></p>
+            </form>
+        </section>
+        <section id="juegos">
+            <h2>lorem</h2>
+            <div class="card sectionM1" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form>
+                        <h4>Que animal sos?</h4>
+                        <select id="question1">
+                            <option value="">seleccionar</option>
+                            <option class="oP6" value="Felino">A</option>
+                            <option class="oP2" value="Canino">B</option>
+                            <option class="oP3" value="Ave">C</option>
+                            <option class="oP4" value="Pez">D</option>
+                            <option class="oP5" value="insecto">E</option>
+                        </select>
+                        <button type="button" id="submit" value="CalcularResultado">RESULTADO</button>
+                        <p id="infoQ1"></p>
+                    </form>
+                </div>
+                <div class="card sectionM2" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <form>
+                            <h4>Que destino te gusta mas?</h4>
+                            <select id="question2">
+                                <option class="oP6" value="">seleccionar</option>
+                                <option class="oP7" value="Carne">+</option>
+                                <option class="oP8" value="Verdura">-</option>
+                                <option class="oP9" value="Pescado">/</option>
+                                <option class="oP10" value="Fruta">*</option>
+                            </select>
+                            <button type="button" id="submit" value="CalcularResultado">RESULTADO</button>
+                            <p id="infoQ2"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="card sectionM3" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <form>
+                            <h4>Que tipo de comida te gusta?</h4>
+                            <select id="question3">
+                                <label for="number"><strong>elija un numero del 1 al 100</strong></label>
+                                <input type="number" name="number" id="selectN">
+                            </select>
+                            <button type="button" id="submit" value="CalcularResultado">RESULTADO</button>
+                            <p id="infoQ3"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="card sectionM4" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <section id="footerF">
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="java/trabajo-errecart.js"></script>
+</body>
+
+</html>
